@@ -1,0 +1,135 @@
+body{
+    background-color:#F7F7F7;
+    height: 900px;
+    width: 370px;
+    border:  1px solid #d3cdcd ;
+     margin-left: 35%; 
+    /* align-items: center; */
+}
+.text{
+   
+    top: 0px;
+    left: 0px;
+    width: 370px;
+    height: 50px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+}
+
+.List{
+    top: 0px;
+    left: 69px;
+    width: 49px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 24px/29px Inter;
+    letter-spacing: 0px;
+    color: #00A5EC;
+}
+.icon{
+    top: 100px;
+    left: 433px;
+    width: 35px;
+    height: 35px;
+
+background: #F7F7F7 0% 0% no-repeat padding-box;
+opacity: 1;
+color: black;
+margin-left: 20%;
+text-decoration: none;
+
+}
+  .icon1{
+    top: 80px;
+    left: 718px;
+    width: 50px;
+    height: 50px;
+
+ /*background: white 0% 0% no-repeat padding-box; */
+ opacity: 1; 
+color: #30ace1; 
+margin-right: 25%;
+margin-left: 30%;
+text-decoration: none;
+
+
+}
+a{
+    text-decoration: none;
+}
+
+
+hr{
+    color:white;
+}
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.child1{
+    width: 340px;
+    height: 330px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+     margin-top: 50px; 
+     margin-left: 15px;
+
+    
+}
+h3{
+    width: 100%;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #00A5EC;
+    opacity: 1;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.checkbox{
+    width: 100%;
+    height: 21px;
+    /* UI Properties */
+   opacity: 1;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #b9b2b2;
+    text-decoration: line-through;
+ 
+}
+.checkbox1{
+    color: black;
+    margin-right: 100px;
+    margin-left: 40px;
+}  
+input{
+    /* top: 390px;
+left: 169px; */
+width: 25px;
+height: 25px;
+/* UI Properties */
+background: #c9c6c6 0% 0% no-repeat padding-box;
+border: 1px solid #dbd5d5;
+border-radius: 4px;
+opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 376px;
+        height: 100%;
+        margin-left: 0;
+    }
+  }
+  
